@@ -507,7 +507,7 @@ def forgot_password(request):
             return Response(data, status=status.HTTP_200_OK)
         else:
             data = {
-                'message' : 'failed',
+                'message' : f'Account with email: {mail} does not exist',
                 
             }
             return Response(data, status=status.HTTP_400_BAD_REQUEST)               
