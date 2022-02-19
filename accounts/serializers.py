@@ -114,7 +114,7 @@ Ifemide Cole
             return {"message": "Please check your email for new OTP"}
         else:
             raise ValidationError(detail={
-                "error":"unable to get user with this email"
+                "error":"unable to get inactive user with this email"
             })
 
 class PostSerializer(serializers.ModelSerializer):
