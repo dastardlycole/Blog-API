@@ -57,7 +57,7 @@ Ifemide Blog"""
     send_mail(
         subject="OTP VERIFICATION CODE",
         message=message,
-        from_email="operations@adubafx.com.ng",
+        from_email="Ifemide Cole",
         recipient_list=[forgetter.email]
     )
     
