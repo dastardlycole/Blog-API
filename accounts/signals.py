@@ -29,7 +29,7 @@ You have successfully registered on our platform. Your activation OTP is {code}.
 Expires in 2 minutes 
 
 Regards,
-AdubaFX"""
+Ifemide Blog"""
 
         send_mail(
             subject="OTP VERIFICATION CODE",
@@ -52,7 +52,7 @@ You have successfully registered on our platform. Your activation OTP is {code}.
 Expires in 2 minutes 
 
 Regards,
-AdubaFX"""
+Ifemide Blog"""
 
     send_mail(
         subject="OTP VERIFICATION CODE",
