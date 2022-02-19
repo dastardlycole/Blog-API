@@ -501,7 +501,7 @@ def forgot_password(request):
             
             serializer.save()    
             data = {
-                'message' : 'success',
+                'message' : 'Success check your email',
                 'data'  : serializer.data
             }    
             return Response(data, status=status.HTTP_200_OK)
